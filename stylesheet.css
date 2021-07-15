@@ -1,0 +1,242 @@
+div{
+  display: block;
+}
+
+body{
+  margin:0;
+  font-family: poppins;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 65px;
+  background-color:rgba(121, 135, 119,0.8);
+  width:98%;
+  position:fixed;
+  z-index: 10;
+  border-radius: 100px;
+  margin:5px 15px;
+
+  
+}
+
+.header-right{
+  float:right;
+  margin-right: 20px;
+}
+
+.header-left{
+  float: left;
+  margin-left: 20px;
+}
+.header-left img{
+  width: auto;
+  height: 55px;
+  padding-top: 5px;
+}
+.logo{
+  padding:6px 25px;
+}
+.header-right a{
+  padding: 0px 20px;
+  font-size: 18x;
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s;
+  line-height: 65px;
+}
+.header-right a:hover{
+  background-color:rgba(249, 249, 249, 1);
+  color: #798777;
+  border-radius: 100px;
+}
+.top-wrapper{
+  background-image: url(img/top-wrapper.png) ;
+  background-size: cover;
+  padding: 90px 0 190px 0;
+}
+.logo-cover{
+  width: auto;
+  height: 400px;
+  margin-top: 20px;
+  padding-bottom: 150px;
+
+}
+.txt-paragraf{
+  margin-top: -400px;
+  margin-left: 300px;
+  font-size: 35px;
+  text-align: center;
+  width: 900px;
+  font-weight: 600;
+  color:#798777;
+}
+
+.produk-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h3{
+  padding-bottom: 30px;
+}
+
+.produk {
+  float: left;
+  width: 25%;
+}
+
+.produk-icon {
+  position: relative;
+}
+
+.produk-icon img{
+  width: auto;
+  height: 150px;
+}
+
+.produk-icon p {
+  position: absolute;
+  top: 140px;
+  width: 100%;
+  color: #5f5d60;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.Tokopedia {
+  width: 20%;
+  box-shadow: 0px 10px #008000;
+  border-radius: 5px;
+}
+
+.Tokopedia:active {
+  position: relative;
+  top: 10px;
+  box-shadow: none;
+}
+
+.shopee {
+  width: 20%;
+  margin-right: 50px;
+  box-shadow: 0px 10px #cc7000;
+  border-radius: 5px;
+}
+
+.shopee:active {
+  position: relative;
+  top: 10px;
+  box-shadow: none;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  padding-top: 30px;
+  background-color:  rgba(121, 135, 119,0.8);
+}
+
+.footer-isi{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-isi h1{
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 48px;
+    color: white;
+}
+.footer-isi p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+    color: white;
+}
+.Media-Socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 48px;
+    padding-left: 0px;
+}
+.Media-Socials li{
+    margin: 0 10px;
+}
+.Media-Socials a{
+    text-decoration: none;
+    color:#fcfcfc;
+}
+.Media-Socials a i{
+    font-size: 21px;
+    transition: color .4s ease;
+}
+.Media-Socials a:hover i{
+    color:crimson;
+}
+.footer-bottom {
+    background-color: grey;
+    width:100%;
+    padding: 20px 0;
+    text-align: center;    
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .7;
+    font-weight: 200;
+    color: white;
+}
