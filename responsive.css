@@ -1,0 +1,76 @@
+@media all and (max-width: 1230px){
+    .header{
+        width:300px;
+    }
+    .txt-paragraf{
+        font-size:30px ;
+        width: 600px;
+    }
+    .container{
+        max-width:1000px;
+        padding:0 40px;
+    }
+    .logo-cover{
+        width:200px ;
+        height: auto;
+    
+    }
+    .top-wrapper{
+        padding-top: 110px;
+        background-size: cover;
+    }
+    .produk-wrapper{
+        height: 1200px;
+    }
+    .produk{
+        width: 50%;
+        padding-top: 30px;
+        float: left;
+    }
+    .produk-icon p{
+        padding-top: 10px;
+    }
+    .txt-contents{
+        width: 250px;
+    }
+    .produk img{
+        max-width:200px ;
+    }
+    
+}
+
+@media all and (max-width: 1030px){
+    .top-wrapper{
+        width: 100%;
+    }
+    .container{
+        margin-left:0px ;
+        margin-right: 0px;
+    }
+    .logo-cover{
+        padding-left: 20px;
+    }
+    .txt-paragraf{
+        font-size: 25px;
+    }
+    .produk{
+        width:100%;
+    }
+}
+
+@media all and (max-width: 1000px){
+    .header{
+        width: 80%;
+    }
+    .txt-paragraf{
+        font-size: 20px;
+        width:450px ;
+    }
+    .footer-bottom p{
+        font-size: 10px;
+    }
+   .produk-wrapper{
+    height: 1650px;
+   }
+   
+}
